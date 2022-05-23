@@ -156,7 +156,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:priority_buffer_des09</Layers>
+				<Layers>GH:world_map</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -166,7 +166,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:priority_buffer_des09</Layers>
+				<Layers>GH:world_map</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -196,7 +196,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:world_map</Layers>
+				<Layers>GH:priority_buffer_des09</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -206,7 +206,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:world_map</Layers>
+				<Layers>GH:priority_buffer_des09</Layers>
 				<Styles></Styles>
 			</TileSet>
 		</VendorSpecificCapabilities>
@@ -253,46 +253,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:priority_buffer_des09</Name>
-				<Title>priority_buffer_des09</Title>
-				<Abstract>GH:priority_buffer_des09 ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸//github.com/tlj11/Mappia_Example/releases/download/Map_Download/priority_buffer_des09.zip˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="18.84793911592982" miny="-34.15950837985605" maxx="19.435464458408283" maxy="-33.30978428454377"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-14021.821583303215" miny="-3781354.7343214634" maxx="40155.448483157634" maxy="-3687188.3365401123"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=priority_buffer_des09"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
-				<Name>GH:cwbr_</Name>
-				<Title>cwbr_</Title>
-				<Abstract>GH:cwbr_ ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸5</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="18.707550704804948" miny="-34.15042981522293" maxx="19.48725264252419" maxy="-33.29932599200121"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-26970.300880790357" miny="-3780347.6867964496" maxx="44935.93995418531" maxy="-3686049.301046442"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cwbr_"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:world_map</Name>
 				<Title>world_map</Title>
 				<Abstract>GH:world_map ABSTRACT</Abstract>
@@ -309,6 +269,46 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=world_map"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:cwbr_</Name>
+				<Title>cwbr_</Title>
+				<Abstract>GH:cwbr_ ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸9</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="18.707550704804948" miny="-34.15042981522293" maxx="19.48725264252419" maxy="-33.29932599200121"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-26970.300880790357" miny="-3780347.6867964496" maxx="44935.93995418531" maxy="-3686049.301046442"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cwbr_"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:priority_buffer_des09</Name>
+				<Title>priority_buffer_des09</Title>
+				<Abstract>GH:priority_buffer_des09 ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group˸shp˸˸˸disabledownload˸notListing˸˸maxZoom˸9</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="18.84793911592982" miny="-34.15950837985605" maxx="19.435464458408283" maxy="-33.30978428454377"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-14021.821583303215" miny="-3781354.7343214634" maxx="40155.448483157634" maxy="-3687188.3365401123"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=priority_buffer_des09"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
